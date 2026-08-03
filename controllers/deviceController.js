@@ -20,7 +20,7 @@ class DeviceController {
                     DeviceInfo.create({
                         title:item.title,
                         description:item.description,
-                        brandId:device.id,
+                        deviceId:device.id,
                     })
                 })
 
